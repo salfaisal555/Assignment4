@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .profile {
+    width: auto;
+    padding: 30px;
+    border: 8px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    margin-right: 20px;
+  }
+  
+  .profile-picture img {
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  button {
+    margin-top: 5px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #4f7db0; 
+  }
+  
+  .resume-btn {
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+  }
+  
+  .resume-btn:hover {
+    background-color: #aed6b7; 
+  }
+  
+  .profile-info {
+    margin-left: 50px;
+  }
+  
+  .profile-info p {
+    margin: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    width: 100%;
+  }
+  
+  /* Media Queries for smaller screens */
+  @media (max-width: 768px) {
+    .profile {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .left-side {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+  
+    .profile-picture {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .profile-picture img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .left-info {
+      text-align: center;
+    }
+  
+    .profile-info {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    input[type="text"],
+    input[type="number"],
+    input[type="email"] {
+      padding: 10px;
+    }
+  
+    button {
+      padding: 10px;
+    }
+  }
+  
+     
+  
